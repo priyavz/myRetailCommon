@@ -11,4 +11,5 @@ public interface ProductPriceRepository extends MongoRepository<ProductPriceEnti
 
     Optional<ProductPriceEntity> findById(int id);
 
+    Optional<ProductPriceEntity> save(int id);
 }
